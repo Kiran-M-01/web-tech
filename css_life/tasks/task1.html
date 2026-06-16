@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Dec, .com, .sib, .all {
+        border-bottom: 2px solid gray;  
+        padding-bottom: 10px;          
+        margin-bottom: 10px;           
+        }
+        .Dec h2{
+            background-color: rgb(189, 73, 73);
+        }
+        .com>h2{
+            background-color: rgb(189, 73, 73);
+        }
+        .sib h1+h2{
+            background-color: rgb(189, 73, 73);
+        }
+        .all h1~h2{
+            background-color: rgb(189, 73, 73);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Dec"><h1>Descendent Combinator</h1>
+        <div class="c">
+            <h2 >Child</h2>
+        </div>
+        <div class="c">
+            <h2>Child</h2>
+            <ul>
+                <li><h2>Descendent</h2></li>
+            </ul> 
+        </div>
+    </div>
+    <div class="com"><h1 >Child Combinator</h1>
+        <h2 >Child</h2>
+        <h2 >Child</h2>
+            <ul>
+                <li><h2>Descendent</h2></li>
+            </ul>
+    </div>
+    <div class="sib">
+        <h1>Adjacent Sibling Combinator</h1>
+        <h2>First Sibling After heading</h2>
+        <h2>Second sibling After heading</h2>
+    </div>
+    <div class="all">
+        <h1>General Sibling Combinator</h1>
+        <h2>First Sibling After heading</h2>
+        <h2>Second sibling After heading</h2>
+    </div>
+
+</body>
+</html>

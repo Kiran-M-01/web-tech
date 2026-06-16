@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="style.css">
+</head>
+<body>
+
+    <h1>forms</h1>
+    <h2>elements --> label,input,button,textarea,select</h2>
+    <h2>attributes --> placeholder,type,required,for(connect input and label),name(key),value(value),size(default 20)</h2>
+    <center>
+
+    <form>
+        <label for="u_name">User Name : </label>
+        <input placeholder="Enter your Name" type="text" id="u_name" name="user_name" value="Tejas" size=""><br><br>
+        
+        <label for="u_eid">Email : </label>
+        <input placeholder="Enter your Email" type="email" id="u_id" name="user_email" size="30" autofocus><br><br>
+        
+        <label for="u_pwd">Password : </label>
+        <input placeholder="Enter your Password" type="password" id="u_pwd" required name="user_password" minlength="3" maxlength="6"><br><br>
+        
+        <label for="u_age">Age : </label>
+        <input placeholder="Enter your Age" type="number" id="u_age" readonly><br><br>
+        
+        <label for="u_dob">DoB : </label>
+        <input type="date" id="u_dob"><br><br>
+
+        <label>Gender : </label>
+
+        <input type="radio" name="u_gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="u_gender" value="female">
+        <label>Female</label>
+        <input type="radio" name="u_gender" value="other">
+        <label>Other</label>
+        <br><br>
+
+        <label>Skills : </label>
+
+        <input type="checkbox" name="u_skill" value="html">
+        <label>html</label>
+        <input type="checkbox" name="u_skill" value="css">
+        <label>css</label>
+        <input type="checkbox" name="u_skill" value="js">
+        <label>js</label>
+        <br><br>
+
+        <label>city : </label>
+        <select>
+            <option value="" disabled selected>select</option>
+            <option value="Mysuru">Mysuru</option>
+            <option value="Blr">Blr</option>
+            <option value="Hassan">Hassan</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="file">
+        <br>
+        <input type="hidden" name="role" value="admin" >
+        <br>
+        <input type="range" min="0" max="100" name="range" step="20">
+        <br>
+        <input type="tell">
+        <br><br>
+        <label>Feedback : </label>
+        <textarea placeholder="feedback.........." type="text" rows="10" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="search">
+
+        <input type="submit">
+        <br>
+        <input type="url">
+        <br>
+        <input type="number" min="0" max="30">
+        <br>
+        <input type='image' src="./images/image.pn">
+    
+        <br><br>
+        <button type="reset">submit</button>
+    </form>
+
+    </center>
+    
+</body>
+</html>
