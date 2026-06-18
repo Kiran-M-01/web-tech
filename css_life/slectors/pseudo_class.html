@@ -25,12 +25,12 @@
             background-color : purple;
         }
 
-        p:first-child {
+        /* p:first-child {
             background-color : lightblue;
         }
          p:last-child {
             background-color : yellow;
-        }
+        } */
 
         /*input:required{
             background-color : blue;
@@ -51,10 +51,13 @@
             background-color : grey;
         } 
 
-        li:nth-child(3) {
+        li:nth-child(-n+3) {
             background-color : blue;
         }
             
+        div:first-type {
+            background-color : yellow;
+        }
 
     </style>
 </head>
@@ -98,6 +101,16 @@
             <li> list 4</li>
             <li> list 5</li>
         </ul>
+
+        <div>
+            <h2>heading 1</h2>
+            <h2>heading 2</h2>
+            <h2>heading 3</h2>
+            <P>para 1</P>
+            <P>para 2</P>
+            <P>para 3</P>
+        </div>
+
 
 </body>
 </html>
