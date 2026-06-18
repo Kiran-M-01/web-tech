@@ -32,9 +32,21 @@
             background-color : yellow;
         }
 
-        input {
+        /*input:required{
             background-color : blue;
-        }  
+        } */
+      
+        /*input:optional{
+            background-color : blue;
+        } */
+
+        input:valid{
+            background-color : green;
+        } 
+
+        input:invalid{
+            background-color : green;
+        } 
 
     </style>
 </head>
@@ -59,9 +71,15 @@
 
      <form action="">
         <label for="01">Name : </label>
-        <input type="text" name="" id="01">
+        <input type="text" name="" id="01" > 
+        <br>
+        <br>
         <label for="02">email :</label>
-        <input type="text" name="" id="02">
+        <input type="email" name="" id="02" required>
+        <br>
+        <br>
+        <label for="03">ph_no :</label>
+        <input type="number" name="" id="03" >
 
         </form>
 
