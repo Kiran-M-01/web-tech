@@ -21,18 +21,36 @@
             content : "hello";
             color: blue;
         }
+
         p::selection{
             color: blue;
             background-color: yellow;
         }
+
+        li::marker{
+            content : "😎";
+        }
+
+        input::placeholder{
+            color:aqua;
+        }
+        
 
     </style>
 </head>
 <body>
     <h1>heading 1</h1>
     <h2>heading 2</h2>
-    <p>lorem ----------------------------------------------------------------------------------------------------------
-    </p>
+    <!-- <p>lorem ----------------------------------------------------------------------------------------------------------
+    </p> -->
     <p>afddfafadsgsdgsd</p>
+
+    <ul>
+        <li>this is list 1</li>
+        <li>this is list 2</li>
+        <li>this is list 3</li>
+        <li>this is list 4</li>
+    </ul>
+    <input type="text" placeholder="enter name">
 </body>
 </html>
