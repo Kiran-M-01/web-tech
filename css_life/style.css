@@ -10,6 +10,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:absolute;
+    z-index: 100;
+
 }
 .right ul{
     display: flex;
@@ -81,4 +84,6 @@ p{
     gap:20px;
     align-items:center;
     list-style:none;
+    position:relative;
+    z-index: 100;
 }
