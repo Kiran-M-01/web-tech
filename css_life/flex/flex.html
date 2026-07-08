@@ -8,8 +8,9 @@
         .parent{
             display: flex;
             height:800px;
-            width:800px;
+            width:300px;
             border: 2px solid black;
+            flex-direction:column;
 
         }
         .child1{
@@ -33,34 +34,50 @@
             background-color:red;
 
         }
-        .child3{
+        .child4{
             height:100px;
             width:100px;
             border: 2px solid yellow;
             background-color:red;
 
         }
+
+        .child2{
+            display:flex;
+            flex-grow:2;
+            flex-shrink:2;
+        }
+        .child3{
+            display:flex;
+            flex-grow:2;
+            flex-shrink:3;
+            flex-basis:200px;
+        }
+        .child4{
+            display:flex;
+            flex-grow:2;
+            flex-shrink:3;
+            flex-direction:column;
+
+        
+        }
     </style>
 </head>
 <body>
     <div class="parent">
         <div class="child1">
-
+            box1
         </div>
 
-        <div class="child1">
-            
+        <div class="child2">
+            box2
         </div>
 
-        <div class="child1">
-            
+        <div class="child3">
+            box3
         </div>
-        <div class="child1">
-            
-        </div>
-
-        <div class="child1">
-            
+        <div class="child4">
+            box4
         </div>
     </div>
 </body>
