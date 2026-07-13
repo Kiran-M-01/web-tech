@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .back {
+            background-color: white;
+            height: 100vh;
+            width: 65vw;
+            border: 2px solid;
+            padding-left: 20px;
+        }
+        .main{
+            display: grid;
+            grid-template-columns:200px 250px 300px 300px 200px;
+            grid-template-rows: 200px 200px 200px 200px 200px;
+            gap: 10px 10px;
+        }
+        .box {
+            border: 2px  solid;
+            padding: 10px;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 20px;
+            
+        }
+        .box1 {
+            grid-column: 1/-1;
+            background-color: rgb(23, 199, 23);
+            padding-top: 70px;
+            font-size: 25px;
+        }
+        .box2 {
+            grid-row: 2/4;
+            background-color: rgb(23, 199, 23);
+            padding-top: 200px;
+            font-size: 25px;
+        }
+        .box3 {
+            grid-column: 2/6;
+            background-color: rgb(23, 199, 23);
+            padding-top: 70px;
+            font-size: 25px;
+        }
+        .box4 {
+            grid-column: 2/4;
+            background-color: rgb(23, 199, 23);
+            padding-top: 70px;
+            font-size: 25px;
+        }
+        .box5 {
+            grid-column: 4/6;
+            background-color: rgb(23, 199, 23);
+            padding-top: 70px;
+            font-size: 25px;
+        }
+        .box6 {
+            grid-column: 1/-1;
+            background-color: rgb(23, 199, 23);
+            padding-top: 70px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <h1 style="text-align: center;">CSS Grid</h1>
+        <div class="main">
+            <div class="box box1">Header</div>
+            <div class="box box2">Side bar</div>
+            <div class="box box3">Content 1</div>
+            <div class="box box4">Content 2</div>
+            <div class="box box5">Content 3</div>
+            <div class="box box6">Footer</div>
+        
+    </div>
+    </div>
+</body>
+</html>
