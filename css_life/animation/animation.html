@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 850px;
+            width: 850px;
+            background-color: #333333;
+        }
+        .child1{
+            height: 250px;
+            width: 150px;
+            background-color: black;
+            color:white;
+            font-size: 1.5rem;
+            text-align:center;
+            border-radius:20px;
+            /*animation: batman 3s linear infinite alternate;*/
+            animation-name:batman;
+            animation-duration:3s;
+
+        }
+
+
+    /*@keyframes batman{
+    from{
+        transform: translate(0px,0px)
+    }
+    to {
+        transform: translate(500px,0px)
+    }
+    }*/
+
+    @keyframes batman{
+    0%{
+        transform: translate(0px,0px)
+    }
+    25% {
+        transform: translate(700px,0px)
+    }
+    50% {
+        transform: translate(700px,600px)
+    }
+    75% {
+        transform: translate(0px,600px)
+    }
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1">
+            Batman
+        </div>
+
+    </div>
+</body>
+</html>
