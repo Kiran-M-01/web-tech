@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: #333333;
+        }
         .container{
             height: 850px;
             width: 850px;
             background-color: #333333;
+            border-radius:50%;
+            border:1px dashed white;
+            position:relative;
+
         }
         .child1{
-            height: 250px;
+            height: 150px;
             width: 150px;
             background-color: black;
             color:white;
             font-size: 1.5rem;
             text-align:center;
-            border-radius:20px;
+            border-radius:50%;
+            position:absolute;
+            bottom:300px;
+
+
             /*animation: batman 3s linear infinite alternate;*/
-            animation-name:batman;
+            /*animation-name:batman;
             animation-duration:3s;
             animation-delay:1s;
             animation-timing-function:ease-in;
             animation-iteration-count:3;
             animation-direction:reverse;
             animation-direction:alternate;
-            animation-direction:alternate-reverse;
+            animation-direction:alternate-reverse;*/
             
 
 
@@ -65,7 +76,7 @@
 <body>
     <div class="container">
         <div class="child1">
-            Batman
+
         </div>
 
     </div>
