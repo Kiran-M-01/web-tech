@@ -16,11 +16,19 @@
 
 // OPERATORS
 
-let a = 10;
-let b = 20;
-let c = 30;
-let sum = a+b+c;
-console.log(sum);
-console.log(a/b);
+// let a = 10;
+// let b = 20;
+// let c = 30;
+// let sum = a+b+c;
+// console.log(sum);
+// console.log(a/b);
 
+// FUNCTION
 
+function add(x,y){
+    // console.log(x + y)
+    return x + y
+}
+add(10,30)
+add(100,300)
+console.log(add(300,200))
