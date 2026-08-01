@@ -16,3 +16,13 @@ js currying - is a functional programming technique where if a  function is retu
 - ===(strict equals) => will check as well as datatype
 - console.log("6" === 6); => False
 
+STATEMENTS
+// QUESTIONS
+1.find the largest of three numbers using nested ternary operator
+2. check if a year is a leap year
+3.find the smallest of three numbers using nested ternary operator
+4.check is a number is divisible by both 4 and 5
+5.implement a simple calculator with nested ternary operator
+6.check if number lies between 10 and 15
+7.check weather a number is single digit or multi digit
+

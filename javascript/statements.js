@@ -33,7 +33,12 @@
 
 
 // TERNARY OPERATOR
-let a = 3
-let b = 20
-let result = a%2 === 0? 'even':'odd'
+// let a = 3
+// let b = 20
+// let result = a%2 === 0? 'even':'odd'
+// console.log(result)
+
+// nested ternary operator
+let marks = +(prompt('enter your marks'))
+let result = marks >= 85? 'Distinction': marks < 85 && marks >= 50? 'first class': marks < 50 && marks >= 35 ? 'pass': 'fail'
 console.log(result)
