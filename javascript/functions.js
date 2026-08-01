@@ -18,17 +18,38 @@
 // console.log(operation((x,y)=> x * y,10,20));
 
 // NESTED FUNCTION
-let parent = () => {
-    console.log("this is parent")
-    let a = 10;
-    let child = () => {
-        console.log("this is child")
+// let parent = () => {
+//     console.log("this is parent")
+//     let a = 10;
+//     let child = () => {
+//         console.log("this is child")
 
-        let grandchild = () =>{
-            console.log('this is grandchild')
-        }
-        grandchild()
+//         let grandchild = () =>{
+//             console.log('this is grandchild')
+//         }
+//         grandchild()
+//     }
+//     child()
+// }
+// parent()
+
+// JAVASCRIPT CURRYING
+let parent = () => {
+    return child = () => {
+        console.log('this is a child')
+        return grandchild = () => {
+        console.log('this is a grandchild')
     }
-    child()
+    }
+    
 }
-parent()
+parent()()()
+
+// JS CURRYING WITH PARAMETERS
+let data = (x, y) => {
+    console.log(x + y)
+    return (x,y) => {
+        console.log(x - y)
+    }
+}
+data(20,30)(20,30)

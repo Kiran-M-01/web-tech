@@ -1,0 +1,18 @@
+1.count the frequency of each digit in a number
+2.print all the armstrong numbers between 1 and 1000
+3.find all the factors of a number
+4.find the first and last digit of a number
+5.prime numbers
+
+NESTED FUNCTIONS
+lexical scope == it is nothing buy parent scope
+closure ==(it is a function) remembering the parent scope data 
+lexical chaining/scope chainiing == checking data in parent scope -> grandchild first check in its own scope if not found then afterz it goes to parent scope , then grand parent
+js currying - is a functional programming technique where if a  function is returning another functions/functions ,'the process of calling returning functions in sequence of parenthesis with parent function'
+ parent()()() == data(20,30)(20,30)
+
+// OPERATORS
+- == => will check only the values not datatype
+- ===(strict equals) => will check as well as datatype
+- console.log("6" === 6); => False
+
