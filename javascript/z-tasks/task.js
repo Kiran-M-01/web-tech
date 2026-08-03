@@ -187,3 +187,10 @@ function largest(num1,num2,num3){
     return result
 }
 console.log(largest(10,50,30))
+
+// 2. check if a year is a leap year
+function leepyear(year){
+    return (year%400 == 0 || year %4 == 0 && year % 100 != 0)?"leap year" : "not leep year"
+
+}
+console.log(leepyear(2000))
