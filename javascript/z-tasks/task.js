@@ -201,3 +201,9 @@ function smallest(num1,num2,num3){
     return result
 }
 console.log(smallest(10,50,30))
+
+// 4.check is a number is divisible by both 4 and 5
+function divisibleby(num){
+    return (num%4==0 && num%5==0)?'divisible by 4 and 5':'not divisible by 4 and 5'
+}
+console.log(divisibleby(40))
