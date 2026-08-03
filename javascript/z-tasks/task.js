@@ -194,3 +194,10 @@ function leepyear(year){
 
 }
 console.log(leepyear(2000))
+
+// 3.find the smallest of three numbers using nested ternary operator
+function smallest(num1,num2,num3){
+    let result = num1 < num2 ? (num1 < num3 ? num1 : num3) : (num2 < num3 ? num2 : num3 )
+    return result
+}
+console.log(smallest(10,50,30))
