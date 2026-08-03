@@ -207,3 +207,34 @@ function divisibleby(num){
     return (num%4==0 && num%5==0)?'divisible by 4 and 5':'not divisible by 4 and 5'
 }
 console.log(divisibleby(40))
+// 5.implement a simple calculator with nested ternary operator
+function calculator(num1,num2,operator){
+    return operator == '+'?
+    num1 + num2 
+    :operator == '-'?
+    num1 - num2 
+    :operator == '*'? 
+    num1 * num2 : 
+    'invalid operator';
+}
+console.log(calculator(20,30,'*'))
+
+// 6.check if number lies between 10 and 15
+function checkRange(num) {
+    return (num >= 10 && num <= 15)
+        ? "Number lies between 10 and 15"
+        : "Number does not lie between 10 and 15";
+}
+
+console.log(checkRange(12));
+
+// 7.check weather a number is single digit or multi digit
+function checkDigit(num) {
+    return (Math.abs(num) <= 9)
+        ? "Single digit"
+        : "Multi digit";
+}
+
+console.log(checkDigit(7));   // Single digit
+console.log(checkDigit(25));  // Multi digit
+console.log(checkDigit(-5));  // Single digit
