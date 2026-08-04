@@ -66,8 +66,8 @@
 // }
 
 // buils a simple calculator by using switch statemnet
-let a = Number(prompt("enter first number"))
-let b = Number(prompt("enter second number"))
+let a = +(prompt("enter first number"))
+let b = +(prompt("enter second number"))
 op = (prompt("enter operator"))
 switch(op){
     case "+":console.log(a + b);

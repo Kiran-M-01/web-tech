@@ -29,3 +29,5 @@ STATEMENTS
 7/8/26
 print the day of a week by using a number, input = 3 , output = wednesday
 buils a simple calculator by using switch statemnet
+
+TRUTHY VALUES AND FALSY VALUES
