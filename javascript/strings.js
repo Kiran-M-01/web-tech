@@ -13,10 +13,18 @@
 // console.log(c)
 
 // 2) STRING OBJECT(string constructor)
-let str = new String("hello")
-console.log(str)
-console.log(typeof str)
+// let str = new String("hello")  //new keyword creates object
+// console.log(str)
+// console.log(typeof str)
 
-// STRING FUNCTION
-let str1 = String("hii")
-console.log('type of str1 = ',typeof str1)
+//  3)STRING FUNCTION
+// let str1 = String("hii")
+// console.log('type of str1 = ',typeof str1)
+
+// ACCESSING A CHARECER FROM A STRING
+// 1) Indexing
+
+let str  = 'this is a smaple string'
+console.log(str[11])
+console.log(str[8]);;
+console.log(str.length);
