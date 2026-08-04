@@ -1,4 +1,4 @@
-// // SWAP NUMBERS
+// // 1.SWAP NUMBERS
 // const swapNumbers = (a, b) => {
 //     console.log("Before Swap:");
 //     console.log("a =", a, "b =", b);
@@ -11,7 +11,7 @@
 
 // swapNumbers(10, 20);
 
-// // Write a function to print all even numbers from 1 to n
+// // 2.Write a function to print all even numbers from 1 to n
 // const evenNumbers = (n) => {
 //     for (let i = 2; i <= n; i += 2) {
 //         console.log(i);
@@ -20,7 +20,7 @@
 
 // evenNumbers(20);
 
-// //function to find the factorial of a number
+// //3.function to find the factorial of a number
 // const factorial = (n) => {
 //     let fact = 1;
 
@@ -33,7 +33,7 @@
 
 // console.log(factorial(5));
 
-// // function to print Fibonacci series up to nth term
+// // 4.function to print Fibonacci series up to nth term
 // const fibonacci = (n) => {
 //     let a = 0;
 //     let b = 1;
@@ -49,7 +49,7 @@
 
 // fibonacci(10);
 
-// // Write a function to reverse a number
+// //5. Write a function to reverse a number
 // const reverseNumber = (num) => {
 //     let reversed = Number(num.toString().split("").reverse().join(""));
 //     return reversed;
@@ -57,7 +57,7 @@
 
 // console.log(reverseNumber(12345));
 
-// // Without using string methods
+// //6. Without using string methods
 // // const reverseNumber = (num) => {
 // //     let rev = 0;
 
@@ -72,7 +72,7 @@
 
 // // console.log(reverseNumber(12345));
 
-// // Write a function to check if a number is a palindrome (using string)
+// // 7.Write a function to check if a number is a palindrome (using string)
 // const isPalindrome = (num) => {
 //     let str = num.toString();
 //     let reversed = str.split("").reverse().join("");
@@ -105,7 +105,7 @@
 
 // digitFrequency(1223344555);
 
-// // Print all Armstrong numbers between 1 and 1000
+// // 2.Print all Armstrong numbers between 1 and 1000
 // function printArmstrong() {
 
 //     for (let num = 1; num <= 1000; num++) {
@@ -128,7 +128,7 @@
 
 // printArmstrong();
 
-// // Find all the factors of a number
+// // 3.Find all the factors of a number
 
 // function factors(num) {
 
@@ -143,7 +143,7 @@
 
 // factors(24);
 
-// // Find the first and last digit of a number
+// // 4.Find the first and last digit of a number
 // function firstAndLastDigit(num) {
 
 //     let lastDigit = num % 10;
@@ -160,7 +160,7 @@
 
 // firstAndLastDigit(987654);
 
-// // Check whether a number is Prime
+// // 5.Check whether a number is Prime
 // function isPrime(num) {
 
 //     if (num <= 1) {
@@ -235,6 +235,6 @@ function checkDigit(num) {
         : "Multi digit";
 }
 
-console.log(checkDigit(7));   // Single digit
-console.log(checkDigit(25));  // Multi digit
-console.log(checkDigit(-5));  // Single digit
+console.log(checkDigit(7));  
+console.log(checkDigit(25));  
+console.log(checkDigit(-5));  

@@ -39,6 +39,48 @@
 // console.log(result)
 
 // nested ternary operator
-let marks = +(prompt('enter your marks'))
-let result = marks >= 85? 'Distinction': marks < 85 && marks >= 50? 'first class': marks < 50 && marks >= 35 ? 'pass': 'fail'
-console.log(result)
+// let marks = +(prompt('enter your marks'))
+// let result = marks >= 85? 'Distinction': marks < 85 && marks >= 50? 'first class': marks < 50 && marks >= 35 ? 'pass': 'fail'
+// console.log(result)
+
+// SWITCH STATEMENT
+// print the day of a week by using a number, input = 3 , output = wednesday
+
+// let day  = Number(prompt("enter a number"))
+// switch(day){
+//     case 1:console.log('monday');
+//     break;
+//     case 2:console.log('tuesday');
+//     break;
+//     case 3:console.log('wednesday');
+//     break;
+//     case 4:console.log('thursday');
+//     break;
+//     case 5:console.log('friday');
+//     break;
+//     case 6:console.log('saturday');
+//     break;
+//     case 7:console.log('sunday');
+//     break;
+//     default:console.log('invalid input');
+// }
+
+// buils a simple calculator by using switch statemnet
+let a = Number(prompt("enter first number"))
+let b = Number(prompt("enter second number"))
+op = (prompt("enter operator"))
+switch(op){
+    case "+":console.log(a + b);
+    break;
+    case "-":console.log(a - b);
+    break;
+    case "*":console.log(a * b);
+    break;
+    case "/":console.log(a / b);
+    break;
+    case "%":console.log(a % b);
+    break;
+    case "**":console.log(a ** b);
+    break;
+    default:console.log('invalid input');
+}

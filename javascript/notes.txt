@@ -26,3 +26,6 @@ STATEMENTS
 6.check if number lies between 10 and 15
 7.check weather a number is single digit or multi digit
 
+7/8/26
+print the day of a week by using a number, input = 3 , output = wednesday
+buils a simple calculator by using switch statemnet
