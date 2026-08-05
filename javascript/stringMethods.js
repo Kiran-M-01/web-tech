@@ -23,3 +23,12 @@ console.log(str2.split('h'))
 let str3 = str2.split('').reverse().join('')
 console.log(str3)
 
+//slice
+let str4 = 'This is String Methods'
+console.log(str4.slice(2,6))
+
+//8)toUpperCase()
+console.log(str4.toUpperCase())
+
+//8)toLowerCase()
+console.log(str4.toLowerCase())
