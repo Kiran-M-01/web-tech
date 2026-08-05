@@ -19,3 +19,7 @@ console.log(str.concat(' ',str2," this is java"))
 // split()
 console.log(str2.split('h'))
 
+//join()
+let str3 = str2.split('').reverse().join('')
+console.log(str3)
+
