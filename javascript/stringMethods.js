@@ -30,5 +30,13 @@ console.log(str4.slice(2,6))
 //8)toUpperCase()
 console.log(str4.toUpperCase())
 
-//8)toLowerCase()
+//9)toLowerCase()
 console.log(str4.toLowerCase())
+
+// 10)include - it will return boolean valaues
+if(str4.includes('ing')){
+    console.log('ths given statement is included')
+}
+else{
+    console.log('ths given statement is not included')
+}
