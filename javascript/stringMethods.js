@@ -40,3 +40,18 @@ if(str4.includes('ing')){
 else{
     console.log('ths given statement is not included')
 }
+
+// trim() - it will remove the extra spaces from the string
+let data = prompt('search').toLowerCase().trim()
+if (data === 'mobiles'){
+    console.log('this is mobiles section ');
+}
+else if (data === 'laptops'){
+    console.log('this is laptop section ');
+}
+else if (data === 'clothes'){
+    consolelog('this is clothes section ');
+}
+else{
+    console.log('page not found ');
+}
