@@ -41,17 +41,24 @@ else{
     console.log('ths given statement is not included')
 }
 
-// trim() - it will remove the extra spaces from the string
-let data = prompt('search').toLowerCase().trim()
-if (data === 'mobiles'){
-    console.log('this is mobiles section ');
-}
-else if (data === 'laptops'){
-    console.log('this is laptop section ');
-}
-else if (data === 'clothes'){
-    consolelog('this is clothes section ');
-}
-else{
-    console.log('page not found ');
-}
+//11) trim() , trimStart() , trimEnd() - it will remove the extra spaces from the string
+// let data = prompt('search').toLowerCase().trim()
+// if (data === 'mobiles'){
+//     console.log('this is mobiles section ');
+// }
+// else if (data === 'laptops'){
+//     console.log('this is laptop section ');
+// }
+// else if (data === 'clothes'){
+//     console.log('this is clothes section ');
+// }
+// else{
+//     console.log('page not found ');
+// }
+
+// 12) startswith()
+let str5 = 'js is asynchronous in nature'
+console.log(str5.startsWith('js '))
+
+// 12) endswith()
+console.log(str5.endsWith('re'))
