@@ -1,0 +1,9 @@
+
+1.count the frequency of each word in a sentence
+2.convert hello_world to hello world  and hello world to hello_world
+3.reverse the order of words in a sentence
+4.check wether a string is a valid email
+5.check wether a string contains only digits
+6.find the shortest word in a sentence
+7.check weather 2 strings are anagrams
+8.remove the duplicate charecters from a string

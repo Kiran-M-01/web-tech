@@ -99,6 +99,12 @@ for (i = 0; i < parts[0].length; i++){
 masked += '@' + parts[1]
 console.log(masked)
 
+let a = email.split("@")
+let username = a[0].slice(0,4)
+let domain = a[1]
+let res = username + '*'.repeat(a[0].length-username.length) + '@' + domain
+console.log(res)
+
 
 // 3.mask the adhar number - only last 4 should be visible
 let adhar  = '1111 2222 4444'
