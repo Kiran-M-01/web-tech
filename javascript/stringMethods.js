@@ -75,3 +75,37 @@ console.log(str8);
 // repeat()
 let str9 = '*'
 console.log(str9.repeat(5))
+
+//  QUESTIONS
+// 1. capitalize the first letter  of the string
+let str10 = 'this is a string'
+str11 = str10.replace(str10[0],str10[0].toUpperCase());
+console.log(str11)
+
+// 2. mask an emal address the input is javascript@gmail.com    output-  java******@gmail.com
+let email = 'javascript@gmail.com'
+console.log(email.replace('script','******'))
+
+let parts = email.split('@')
+let masked = ''
+for (i = 0; i < parts[0].length; i++){
+    if(i< 4){
+        masked += parts[0][i]
+    }
+    else{
+        masked += '*'
+    }
+}
+masked += '@' + parts[1]
+console.log(masked)
+
+
+// 3.mask the adhar number - only last 4 should be visible
+let adhar  = '1111 2222 4444'
+let part = adhar.split(' ')
+masked2 = ''
+for(i = 0;i < (part.length)-1; i++){
+masked2 += '*'.repeat(part[i].length)
+}
+masked2 += part[2]
+console.log(masked2) 

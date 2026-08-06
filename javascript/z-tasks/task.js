@@ -238,3 +238,5 @@ function checkDigit(num) {
 console.log(checkDigit(7));  
 console.log(checkDigit(25));  
 console.log(checkDigit(-5));  
+
+
