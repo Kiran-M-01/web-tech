@@ -20,3 +20,31 @@ console.log(arr[1])
 arr[0] = 'hii'
 arr[10] = 10
 console.log(arr)
+
+
+// ---------------------
+let arr1 = [10,'hi',20,true]
+console.log(arr1.length)
+
+// METHODS OF ARRAYS
+// 1.push()
+// 2.pop()
+// 3.shift()
+// 4.unshift()
+
+// push()
+arr1.push(100,'hey')
+console.log(arr1)
+
+// pop()
+let data = arr1.pop()
+console.log(data)
+console.log(arr1)
+
+// unshift
+arr1.unshift(1,2,'added')
+console.log(arr1)
+
+// shift
+arr1.shift()
+console.log(arr1)
