@@ -58,7 +58,20 @@ else{
 
 // 12) startswith()
 let str5 = 'js is asynchronous in nature'
-console.log(str5.startsWith('js '))
+console.log(str5.startsWith('js '));
 
 // 12) endswith()
-console.log(str5.endsWith('re'))
+console.log(str5.endsWith('re'));
+
+// replace()  - replaces first matching word or charecter
+let str6 = 'Promice returns Object Promice'
+let str7 = str6.replace("Promice","Array")
+console.log(str7);
+
+// replaceAll()  -- replaces ll matching word or charecter
+let str8 = str6.replaceAll("Promice","Array")
+console.log(str8);
+
+// repeat()
+let str9 = '*'
+console.log(str9.repeat(5))
