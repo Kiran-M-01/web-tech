@@ -240,3 +240,112 @@ console.log(checkDigit(25));
 console.log(checkDigit(-5));  
 
 
+// STRING METHODS
+// 1. Count the frequency of each word in a sentence
+
+let sentence1 = prompt("Enter a sentence:");
+
+let words1 = sentence1.split(" ");
+let frequency = {};
+
+for (let word of words1) {
+    frequency[word] = (frequency[word] || 0) + 1;
+}
+
+console.log(frequency);
+
+
+// 2. Convert hello_world to hello world
+//    and hello world to hello_world
+
+let text = prompt("Enter a string:");
+
+if (text.includes("_")) {
+    console.log(text.replaceAll("_", " "));
+} else {
+    console.log(text.replaceAll(" ", "_"));
+}
+
+
+// 3. Reverse the order of words in a sentence
+
+let sentence2 = prompt("Enter a sentence:");
+
+let reversed = sentence2.split(" ").reverse().join(" ");
+
+console.log(reversed);
+
+
+// 4. Check whether a string is a valid email
+
+let email = prompt("Enter an email:");
+
+let pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+if (pattern.test(email)) {
+    console.log("Valid Email");
+} else {
+    console.log("Invalid Email");
+}
+
+
+// 5. Check whether a string contains only digits
+
+let str = prompt("Enter a string:");
+
+if (/^\d+$/.test(str)) {
+    console.log("Contains only digits");
+} else {
+    console.log("Contains non-digit characters");
+}
+
+
+// 6. Find the shortest word in a sentence
+
+let sentence3 = prompt("Enter a sentence:");
+
+let words2 = sentence3.split(" ");
+
+let shortest = words2[0];
+
+for (let word of words2) {
+    if (word.length < shortest.length) {
+        shortest = word;
+    }
+}
+
+console.log("Shortest word:", shortest);
+
+
+// 7. Check whether two strings are anagrams
+
+let str1 = prompt("Enter first string:")
+    .replaceAll(" ", "")
+    .toLowerCase();
+
+let str2 = prompt("Enter second string:")
+    .replaceAll(" ", "")
+    .toLowerCase();
+
+let sorted1 = str1.split("").sort().join("");
+let sorted2 = str2.split("").sort().join("");
+
+if (sorted1 === sorted2) {
+    console.log("Anagrams");
+} else {
+    console.log("Not Anagrams");
+}
+
+// 8. Remove duplicate characters from a string
+
+let input = prompt("Enter a string:");
+
+let result = "";
+
+for (let ch of input) {
+    if (!result.includes(ch)) {
+        result += ch;
+    }
+}
+
+console.log(result);

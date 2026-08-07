@@ -13,7 +13,7 @@ js currying - is a functional programming technique where if a  function is retu
 
 // OPERATORS
 - == => will check only the values not datatype
-- ===(strict equals) => will check as well as datatype
+- ===(strict equals) => will check value as well as datatype
 - console.log("6" === 6); => False
 
 STATEMENTS
