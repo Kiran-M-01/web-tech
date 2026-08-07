@@ -1,0 +1,14 @@
+GROOMING
+map - return values
+foreach - only for printing purpose
+map and foreach both are higher order functions 
+map accepts one callback function
+reduce= find the largest number in an array using reduce method
+accumulator - we can mention default or leave it 
+            - accumulator accumulates the result value
+current - it iterates or moves in array
+
+OBJECT - object is combination of key and value
+to access object elements
+1)dot operator
+2)square brackets
