@@ -55,3 +55,5 @@ let a = new Promise((resolve,reject) =>{
 })
 console.log(a)
 
+
+

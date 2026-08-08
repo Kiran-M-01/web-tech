@@ -47,4 +47,7 @@ ASYNCHRONOUS JAVASCRIPT
 --it returns object
 - it is an higher order function
 
+promise handling methods - 
+1> then and catch  ( both then and catch are higher order functions) - older approach
+2> async/await - modern approach
 
