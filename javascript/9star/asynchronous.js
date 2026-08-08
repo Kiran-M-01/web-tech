@@ -38,14 +38,15 @@
 
 // let count = 0
 // let a = setInterval(()=>{
-//     // console.log(count)
+//     console.log(count)
+//     count++;
 //     if(count === 5){
-//     clearInterval()
+//     clearInterval(a)
 //     }
-// })
+// },2000)
 
 let a = new Promise((resolve,reject) =>{
-    let promise = false
+    let promise = 1
     if(promise){
     resolve("promise success")
     }else{
