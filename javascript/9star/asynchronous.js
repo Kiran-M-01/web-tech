@@ -45,15 +45,31 @@
 //     }
 // },2000)
 
-let a = new Promise((resolve,reject) =>{
-    let promise = 1
-    if(promise){
-    resolve("promise success")
-    }else{
-    reject('promise rejected')
-    }
-})
-console.log(a)
+// let a = new Promise((resolve,reject) =>{
+//     let promise = 1
+//     if(promise){
+//     resolve("promise success")
+//     }else{
+//     reject('promise rejected')
+//     }
+// })
+// console.log(a)
+
+// 
+function fetchData(){
+    let data = fetch('https://fakestoreapi.com/products/1')
+    .then((response) =>{
+        return response.json()
+    }).then((xyz) => {
+        console.log(xyz)
+
+    })
+
+    // console.log(data)
+    
+
+}
+fetchData()
 
 
 
