@@ -18,14 +18,35 @@ let nums1 = nums.filter((val) => {
 })
 console.log(nums1)
 
+// 4)find the strings having more than 5 charecters
 let str = ['hiiiii','bye','good morning','hello', 'good afternoon']
 let str1 = str.filter((val) => {
     return val.length > 5
 })
 console.log(str1)
 
+// 5)find the maximum number
 let numbers = [10, 35, 20, 8, 15];
 let numbers2 = numbers.reduce((acc,curr) => {
     return curr > acc ? curr : acc
 })
 console.log(numbers2)
+
+// 5)find the minimum number
+let numbers3 = numbers.reduce((acc,curr) => {
+    return curr < acc ? curr : acc
+})
+console.log(numbers3)
+
+let numbers4 = numbers.reduce((largest,second) =>{
+    // let largest = 0
+    // let second = 0
+    // if(curr > acc){
+    //     largest = curr
+    //     second = acc
+    // }else{
+
+    // } 
+
+
+})

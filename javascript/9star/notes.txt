@@ -3,12 +3,48 @@ map - return values
 foreach - only for printing purpose
 map and foreach both are higher order functions 
 map accepts one callback function
+
 reduce= find the largest number in an array using reduce method
 accumulator - we can mention default or leave it 
             - accumulator accumulates the result value
 current - it iterates or moves in array
 
+1.diff bw map and foreach
+2what are array iteration methods in js
+3. does foreach return a new array 
+4.waht is the purpose if filter and reduce method
+4.what is the meaning of accumulator in reduce method
+5.you have an array of employees,  how would you get only employees whose salary is above 50000
+6.how would you check weather all emploeyees salary above 20000
+7.how can you calculate a average by using reduce method
+8.find the largest number in an array
+9.find the second largest number in an array
+
+
+
 OBJECT - object is combination of key and value
 to access object elements
 1)dot operator
 2)square brackets
+
+ASYNCHRONOUS JAVASCRIPT
+-javascript is asynchronous in nature
+-parallel execution of task is known as asynchronous javascript
+
+
+1) timer function
+1> setTimeout() 
+- it is an higher order function
+- it accepts one callback function
+- it executes only once
+
+2> clearTimeout()
+-it will stop/avoid the execution of setTimeout() 
+- by default it executes infinitely
+
+
+//PROMISE
+--it returns object
+- it is an higher order function
+
+

@@ -25,8 +25,4 @@ let arr1 = arr.reduce((acc,curr) =>{
 },0)
 console.log(arr1)
 
-let arr2 = arr.reduce((acc,curr) =>{
-    let large = [acc + curr
-})
-console.log(arr1)
 
