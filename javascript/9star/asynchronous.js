@@ -56,20 +56,29 @@
 // console.log(a)
 
 // 
-function fetchData(){
-    let data = fetch('https://fakestoreapi.com/products/1')
-    .then((response) =>{
-        return response.json()
-    }).then((xyz) => {
-        console.log(xyz)
+// function fetchData(){
+//     let data = fetch('https://dummyjson.com/products')
+//     .then((response) =>{
+//         return response.json()
+//     }).then((xyz) => {
+//         console.log(xyz)
+//     })
+// }
+// fetchData()
 
-    })
+// let res = fetch('https://dummyjson.com/products')
+// let data = res.then((response) =>{
+//    return response.json()
+// }).then((v)=>{
+//   console.log(v.products)
+// })
 
-    // console.log(data)
-    
-
-}
-fetchData()
+let result = fetch('https://dummyjson.com/quotes')
+.then((response) =>{
+    return response.json()
+}).then((data) =>{
+    console.log(data.quotes)
+})
 
 
 
