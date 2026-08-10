@@ -95,20 +95,57 @@
 //     })
 // })
 
+
+
 // ASYNC/AWAIT
 
-async function fetching(){
-    let res = await fetch('https://dummyjson.com/products')
-    console.log(res);
-    let data = await res.json()
-    console.log(data);
-    console.log(data.products);
-    data.products.forEach((v) =>{
-        console.log(v.title)
-        console.log(v.price)
+// async function fetching(){
+//     let res = await fetch('https://dummyjson.com/products')
+//     console.log(res);
+//     let data = await res.json()
+//     console.log(data);
+//     console.log(data.products);
+//     data.products.forEach((v) =>{
+//         console.log(v.title)
+//         console.log(v.price)
 
-    })
+//     })
+// }
+
+// fetching()
+
+
+// async function fetchingData(){
+//     let result = await fetch('http://localhost:420/products')
+//     let data = await result.json()
+//     console.log(data)
+//     data.forEach((v) =>{
+//         console.log(v.title)
+//     })
+// }
+// fetchingData()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+async function a(){
+    let result = await fetch("http://localhost:420/mobiles")
+    let data = await result.json()
+
+    console.log(data)
+    // data.forEach((v) =>{
+    //     console.log(v.Brand_Name)
+    // })
 }
-
-fetching()
-
+a()

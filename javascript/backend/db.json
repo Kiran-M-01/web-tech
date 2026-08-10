@@ -1,0 +1,8 @@
+{
+    "users":[],
+    "mobiles":[
+        {"Brand-name":"VIVO","Price":20000},
+        {"Brand-name":"SAMSUNG","Price":50000},
+        {"Brand-name":"OPPO","Price":30000}
+    ]
+}

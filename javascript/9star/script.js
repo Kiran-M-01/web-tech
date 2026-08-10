@@ -26,3 +26,5 @@ let arr1 = arr.reduce((acc,curr) =>{
 console.log(arr1)
 
 
+
+

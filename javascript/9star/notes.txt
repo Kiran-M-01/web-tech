@@ -47,9 +47,87 @@ ASYNCHRONOUS JAVASCRIPT
 --it returns object
 - it is an higher order function
 
+promise methods - 1)promise.all()
+                  2)promise.allsettled()
+                  3)promise.any()
+                  4)promise.resolve()
+                  5)promise.reject()
+                  6)promise.rece()
+                  ex = promise.race([p1,p2,p3,p4])   
+
 promise handling methods - 
 1> then and catch  ( both then and catch are higher order functions) - older approach
 2> async/await - modern approach
 
 //fetch - it returns promise
          - promise result will be response
+
+
+
+/// JSON (javascript object notation)
+- json is a text format for storing and exchanging data
+- RULES of json
+  - key must be enclosed with doubleqoutes
+  - singlequotes & string literals are not allowed in json
+  - comments are not allowed in json
+  - undefined & functions are not allowed in json 
+   - datatypes of json 
+        - Number
+        -String
+        - Array
+        - Objects
+        - Boolean      - only these were allowed in json
+    
+    - npm install json-server - to install json server
+    - npm init -y - to install package.json
+    - npx json-server --watch backend/db.json --port 420 
+
+
+//METHOD IN JS
+converting js object into json object
+1) stringify - converts js object into json object
+2) parsing - converts json object into js object
+                   
+
+/// REST API
+- representational state transfer application programming interface
+
+
+
+///REACT
+- it is a library of js
+-  it is used to make a single page application
+
+LIBRARY - it is a single set of files or modules
+FRAMEWORK - it is a group of libraries
+
+// single page application
+ - only one html page
+  - no reload
+  - faster
+  - not SEO friendly
+
+// multi page application
+ - only more than one html page
+  -  reload is available (html,css,js everything will be reloaded)
+  - faster
+  - SEO friendly
+
+CHARECTERESTICS OF REACT
+- component based archetecture
+- uses vertualDOM(vDOM)(it is a exact replication of real DOM)
+- JSX(Javascript and XML)
+- hooks based archetecture
+      - hooks - converts every class based components into function based components
+- it is declarative
+- it is a js library
+
+
+//DOM 
+
+DOM METHODS
+- 1.document.GetElementById("")    
+- 2.document.GetElementByClassName("")
+- 3.document.GetElementTagName("")
+- 4.document.QuerySelector(" div p")    - selects first paragraph in the div
+- 5.document.QuerySelectorAll("div p")    - select all paragraphs in the div
