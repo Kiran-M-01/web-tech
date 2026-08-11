@@ -131,3 +131,10 @@ DOM METHODS
 - 3.document.GetElementTagName("")
 - 4.document.QuerySelector(" div p")    - selects first paragraph in the div
 - 5.document.QuerySelectorAll("div p")    - select all paragraphs in the div
+
+
+diffing algorithm - checking type between updated dom and previous dom
+re-consilation - whole process(previous dom,updated dom,diffing aldorithm,batching,patching)
+
+babel js - - it is a transpiler that converts advance js into previous version js(before RS6 version)
+

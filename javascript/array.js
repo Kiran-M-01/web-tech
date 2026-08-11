@@ -64,9 +64,41 @@
 // console.log(arr.lastIndexOf('30'));
 
 // includes
-let arr = [10,'hii',20,'hello',30,40,'bye',50,30]
-console.log(arr.includes('bye'))
+// let arr = [10,'hii',20,'hello',30,40,'bye',50,30]
+// console.log(arr.includes('bye'))
 
-// concate
-let arr2 = ['js',70,'programminng']
-console.log(arr.concat(arr2))
+// // concate
+// let arr2 = ['js',70,'programminng']
+// console.log(arr.concat(arr2))
+
+
+// DESTRUCTURING
+
+// 1. array destructuring
+// let arr = [[10,[20]],[30,[40,[50]]]]
+
+// let [[a,[b]],[c,[d,[e]]]] = arr;
+
+// console.log(c)
+
+//skipping a valaues
+// let arr1 = ["mango","Strawberry","banana"]
+// // let [a,b] = arr1;
+// // console.log(a)
+// // console.log(b)
+// // setting default values
+// let [a,b="Kiwi",c,d ="Apple"] = arr1
+// console.log(b)    //  b is still "Strawberry"
+// console.log(d)
+
+// Object Destructuring
+let Car ={
+    Brand:"BMW",
+    Color:"Black",
+    Price:"1cr",
+    Model:"m5"
+}
+let {Brand,Color} = Car
+console.log(Brand)
+console.log(Color)
+console.log(Car.Price)

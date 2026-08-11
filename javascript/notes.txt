@@ -41,3 +41,6 @@ questions
 1. capitalize the first letter  of the string
 2. mask an emal address the input is javascript@gmail.com    output-  java******@gmail.com
 3.mask the adhar number - only last 4 should be visible
+
+//DESTRUCTURING
+- extracting a part of value from array or object 
