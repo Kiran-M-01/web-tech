@@ -98,7 +98,10 @@ let Car ={
     Price:"1cr",
     Model:"m5"
 }
-let {Brand,Color} = Car
-console.log(Brand)
-console.log(Color)
-console.log(Car.Price)
+// let {Brand,Color} = Car
+// console.log(Brand)
+// console.log(Color)
+// console.log(Car.Price)
+
+let {Brand:brandName,Color:colorName} = Car
+console.log(brandName)
