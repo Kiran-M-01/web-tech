@@ -92,16 +92,44 @@
 // console.log(d)
 
 // Object Destructuring
-let Car ={
-    Brand:"BMW",
-    Color:"Black",
-    Price:"1cr",
-    Model:"m5"
-}
+// let Car ={
+//     Brand:"BMW",
+//     Color:"Black",
+//     Price:"1cr",
+//     Model:"m5"
+// }
 // let {Brand,Color} = Car
 // console.log(Brand)
 // console.log(Color)
 // console.log(Car.Price)
 
-let {Brand:brandName,Color:colorName} = Car
-console.log(brandName)
+// let {Brand:brandName,Color:colorName, FuelType="Petrol",Milage:milageDistance = "20km"} = Car
+// console.log(brandName)
+// console.log(FuelType)
+// console.log(milageDistance)
+
+// DESTRUCTURING NESTED OBJECT
+
+// let Person = {
+//     name:"Hasha",
+//     age:30,
+//     Address:{
+//         Pincode:"90",
+//         street:"Vijayanagar"
+//     }
+// }
+
+// let {Pincode,street} = Person.Address
+// console.log(Pincode)
+
+// SPREAD OPERATOR  - unpacks the array or object
+let obj1 = {
+    name:"Darshan",
+    age : 20
+}
+
+let obj2 = {
+    ...obj1,
+    gender:"male"
+}
+console.log(obj2)

@@ -1,0 +1,9 @@
+//MODULES
+1. default modules    2.named modules
+
+1.default modules - we can have only one default export/module in a file
+                  - we can import default modules with any name
+
+2.named modules  - we can have multiple export/module in a file
+                  - we should import named modules with their name  insiide { }
+                  - 

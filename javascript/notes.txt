@@ -44,3 +44,6 @@ questions
 
 //DESTRUCTURING
 - extracting a part of value from array or object 
+
+// Rest operator - collect the rest data
+// Spread operator - will unpack array or object
