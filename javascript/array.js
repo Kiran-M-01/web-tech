@@ -133,3 +133,7 @@ let obj2 = {
     gender:"male"
 }
 console.log(obj2)
+
+arr1 = [10,20,30]
+arr2 = [...arr1,'hi','hello']
+console.log(arr2)
