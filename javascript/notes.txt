@@ -45,5 +45,16 @@ questions
 //DESTRUCTURING
 - extracting a part of value from array or object 
 
-// Rest operator - collect the rest data
+// Rest operator - collectin entire rest of the data .
 // Spread operator - will unpack array or object
+
+
+///JSON
+what is json
+datatypes of json
+not allowed in json
+json methods
+
+--npm init -y    == to install package.json
+--npx install json-server  == to install json server -you can see it on dependencies
+npm(node package manager), npx(node package execute)bb

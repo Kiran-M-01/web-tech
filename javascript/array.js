@@ -138,11 +138,19 @@
 // arr2 = [...arr1,'hi','hello']
 // console.log(arr2)
 
-// REST OPERATOR
-let data = [10,20,30];
-function destructuring(...x){
-    console.log(x)
+// REST OPERATOR    - collectin entire rest of the data .
+// let data = [10,20,30];
+// function destructuring(...x){
+//     console.log(x)
     
 
-}
-destructuring(...data)
+// }
+// destructuring(...data)
+
+let arr = [10,20,30,40,50,60]
+// let arr2 = [...arr,10,20]     
+// console.log(arr2)                // o/p - [10,20,30,40,50,60,10,20]
+
+let [a,b,...c] = arr;      
+console.log(a)                       //  o/p - 10
+console.log(c)                         // o/p - [30,40,50,60]
