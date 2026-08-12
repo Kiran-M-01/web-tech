@@ -123,17 +123,26 @@
 // console.log(Pincode)
 
 // SPREAD OPERATOR  - unpacks the array or object
-let obj1 = {
-    name:"Darshan",
-    age : 20
-}
+// let obj1 = {
+//     name:"Darshan",
+//     age : 20
+// }
 
-let obj2 = {
-    ...obj1,
-    gender:"male"
-}
-console.log(obj2)
+// let obj2 = {
+//     ...obj1,
+//     gender:"male"
+// }
+// console.log(obj2)
 
-arr1 = [10,20,30]
-arr2 = [...arr1,'hi','hello']
-console.log(arr2)
+// arr1 = [10,20,30]
+// arr2 = [...arr1,'hi','hello']
+// console.log(arr2)
+
+// REST OPERATOR
+let data = [10,20,30];
+function destructuring(...x){
+    console.log(x)
+    
+
+}
+destructuring(...data)
