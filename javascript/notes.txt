@@ -55,6 +55,8 @@ datatypes of json
 not allowed in json
 json methods
 
---npm init -y    == to install package.json
---npx install json-server  == to install json server -you can see it on dependencies
+1}--npm init -y    == to install package.json
+2}--npx install json-server  == to install json server -you can see it on dependencies
 npm(node package manager), npx(node package execute)bb
+
+3}npx json-server --watch ./backend/db.json --port 4200
