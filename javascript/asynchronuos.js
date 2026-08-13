@@ -23,13 +23,22 @@
 // 3)clearTimeout()
 // 4) clearInterval
 
+// interview quqestion
+// let count = 0;
+// for(i=0;i<=5;i++){
+//     let a = setTimeout(()=>{
+//         count++
+//         console.log(count)
+//     },i*2000)
+// }
+
 // 2} PROMISE - 
 // - sequential completion or failure of an asynchronour task
 
-let a = new Promise((res, rej) =>{
-    rej("it is rejecteed")
-})
+// let a = new Promise((res, rej) =>{
+//     rej("it is rejecteed")
+// })
 
-console.log(a)
+// console.log(a)
 
 
