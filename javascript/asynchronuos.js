@@ -42,3 +42,9 @@
 // console.log(a)
 
 
+let a = new Promise((res,rej)=>{
+    res('this is rejected')
+})
+a.then((value)=>{
+    console.log(value)
+})
