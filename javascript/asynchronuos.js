@@ -43,8 +43,16 @@
 
 
 let a = new Promise((res,rej)=>{
-    res('this is rejected')
+    b = false
+    if(b){
+    res('this is resolved')
+    }else{
+        rej('this is rejected')
+    }
 })
 a.then((value)=>{
     console.log(value)
+})
+a.catch((v)=>{
+    console.log(v)
 })
