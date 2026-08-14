@@ -42,17 +42,27 @@
 // console.log(a)
 
 
-let a = new Promise((res,rej)=>{
-    b = false
-    if(b){
-    res('this is resolved')
-    }else{
-        rej('this is rejected')
-    }
-})
-a.then((value)=>{
-    console.log(value)
-})
-a.catch((v)=>{
-    console.log(v)
+// let a = new Promise((res,rej)=>{
+//     b = false
+//     if(b){
+//     res('this is resolved')
+//     }else{
+//         rej('this is rejected')
+//     }
+// })
+// a.then((value)=>{
+//     console.log(value)
+// })
+// a.catch((v)=>{
+//     console.log(v)
+// })
+
+// FETCH api
+let data = fetch('https://dummyjson.com/products')
+console.log(data)    //  fetch returns promise
+data.then((v)=>{
+    // console.log(v)  //  returns response not in json format
+    return v.json()     // convert response into json format
+}).then((va)=>{
+    console.log(va.products)
 })
