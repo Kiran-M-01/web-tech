@@ -70,9 +70,12 @@
 //     })
 // })
 
-// fetch('https://jsonplaceholder.typicode.com/todos')
-// .then((value)=>{
-//     return value.json()
-// }).then((v)=>{
-//     console.log(v)
-// })
+fetch('https://jsonplaceholder.typicode.com/todos')
+.then((value)=>{
+    return value.json()
+}).then((v)=>{
+    v.forEach((val)=>{
+        console.log('title:',val.title)
+        console.log('isCompleted:',val.completed)
+    })
+})
