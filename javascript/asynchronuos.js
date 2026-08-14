@@ -58,11 +58,21 @@
 // })
 
 // FETCH api
-let data = fetch('https://dummyjson.com/products')
-console.log(data)    //  fetch returns promise
-data.then((v)=>{
-    // console.log(v)  //  returns response not in json format
-    return v.json()     // convert response into json format
-}).then((va)=>{
-    console.log(va.products)
-})
+// let data = fetch('https://dummyjson.com/products')
+// console.log(data)    //  fetch returns promise
+// data.then((v)=>{
+//     // console.log(v)  //  returns response not in json format
+//     return v.json()     // convert response into json format
+// }).then((va)=>{
+//     va.products.forEach((value)=>{
+//         console.log(value.title)
+//         console.log(value.description)
+//     })
+// })
+
+// fetch('https://jsonplaceholder.typicode.com/todos')
+// .then((value)=>{
+//     return value.json()
+// }).then((v)=>{
+//     console.log(v)
+// })
