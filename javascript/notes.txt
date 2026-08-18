@@ -60,3 +60,20 @@ json methods
 npm(node package manager), npx(node package execute)bb
 
 3}npx json-server --watch ./backend/db.json --port 4200
+
+// BOM
+
+// DOM
+- dom is an api
+- dom is a property of bom
+- it is used to manipulate the html by using javascript
+- 
+
+// DOM manipulation methods
+1.document.getElementById()
+2.document.getElementClassName()
+3.document.getElementByTagName()
+4.document.QuerySelector()
+5.document.QuerySelectorAll()
+
+

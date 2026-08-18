@@ -57,7 +57,7 @@
 //     console.log(v)
 // })
 
-// FETCH api
+// 3)FETCH api
 // let data = fetch('https://dummyjson.com/products')
 // console.log(data)    //  fetch returns promise
 // data.then((v)=>{
@@ -70,12 +70,26 @@
 //     })
 // })
 
-fetch('https://jsonplaceholder.typicode.com/todos')
-.then((value)=>{
-    return value.json()
-}).then((v)=>{
-    v.forEach((val)=>{
-        console.log('title:',val.title)
-        console.log('isCompleted:',val.completed)
-    })
-})
+// fetch('https://jsonplaceholder.typicode.com/todos')
+// .then((value)=>{
+//     return value.json()
+// }).then((v)=>{
+//     v.forEach((val)=>{
+//         console.log('title:',val.title)
+//         console.log('isCompleted:',val.completed)
+//     })
+// })
+
+// 4) ASYNC AND AWAIT
+// it handles the promis and returns response automatically
+// async function fetching(){
+//     let data = await fetch('https://jsonplaceholder.typicode.com/todos')
+//     let res = await data.json()
+//     console.log(res);
+//     res.products.forEach((x) =>{
+//         console.log(x.title)
+//     })
+    
+// }
+
+
