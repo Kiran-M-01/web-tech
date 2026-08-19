@@ -36,11 +36,41 @@
 
 // }
 
-function hide(){
-    let target = document.getElementById("box").style.display = "none"
-}
+// HIDE AND SHOW TASK
+// function hide(){
+//     let target = document.getElementById("box").style.display = "none"
+// }
 
-function show(){
-    let target = document.getElementById("box").style.display = "block"
-}
+// function show(){
+//     let target = document.getElementById("box").style.display = "block"
+// }
+
+// TO-DO LIST TASK
+
+const taskInput = document.getElementById("taskInput")
+const addBtn = document.getElementById("addBtn")
+const taskList = document.getElementById("taskList")
+
+addBtn.addEventListener("click", function(){
+    const taskText = taskInput.value;
+    if(taskText == ""){
+        alert("please enter a task")
+        return;
+    }
+    // create a new list item
+    const li = document.createElement("li")
+
+    // add the text as list item
+    li.textContent = taskText + " ";
+
+    // add li to ul
+    taskList.appendChild(li);
+
+    // create a delete button
+    const  deleteBtn = document.createElement("button")
+
+    
+
+
+})
 
