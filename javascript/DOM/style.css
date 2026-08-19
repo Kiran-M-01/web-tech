@@ -1,0 +1,9 @@
+#box{
+    width:250px;
+    height:250px;
+    background-color:aqua;
+    padding : 30px;
+    color : red;
+    margin-top:20px;
+    font-size:2rem;
+}
