@@ -26,7 +26,8 @@ function change() {
     console.log(target);
     // target.innerHTML = '<h3>this is after change</h3>'
     // target[0].style.backgroundColor='black'
-    // target[0].style.color = 'white'
+    target[0].innerText = 'this is js'
+    target[1].textContent = 'this is changed js'
     for(i=0;i<target.length;i++){
         target[i].style.backgroundColor='red'
         target[i].style.color = 'white'
