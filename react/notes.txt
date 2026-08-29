@@ -9,3 +9,8 @@
 'npm create vite@latest' - to install react project
 'npm install' - to install node modules
 
+
+-- Old way 
+React.createElemet(tag, attribute, content)
+React.creataelement("h1",null,"this is h2")
+
