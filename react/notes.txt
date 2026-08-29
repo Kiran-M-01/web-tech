@@ -1,0 +1,11 @@
+-
+
+-browser only understands before ES6
+'babeljs' - it is a transpiler which converts advanced js into previous js
+
+== react uses a module bundle called as 'roll up'
+
+
+'npm create vite@latest' - to install react project
+'npm install' - to install node modules
+
