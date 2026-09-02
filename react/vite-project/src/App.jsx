@@ -7,9 +7,12 @@ let App = () => {
         age:15
     }
 
-    let arr = [10,20,30,40,50]
-
     let {name,age} = obj
+    let arr = [10,20,30,40,50]
+    let obj2 = {
+        skills:["html","css","js"]
+    }
+    
     return (
         <div>
             <h1>{a}</h1>
@@ -23,6 +26,14 @@ let App = () => {
                     <h1>{val + 50 + " Hi"}</h1>
                 </div>)
             })}
+
+            {obj2.skills.map((val)=>{
+                return (<div>
+                    <h1>{val}</h1>
+                </div>)
+            })
+            }
+
         </div>
     )
 
