@@ -7,6 +7,8 @@ let App = () => {
         age:15
     }
 
+    let arr = [10,20,30,40,50]
+
     let {name,age} = obj
     return (
         <div>
@@ -15,6 +17,12 @@ let App = () => {
             <h2>{c}</h2>
             <p>{name}</p>
             <p>{age}</p>
+
+            {arr.map((val)=>{
+                return (<div>
+                    <h1>{val + 50 + " Hi"}</h1>
+                </div>)
+            })}
         </div>
     )
 

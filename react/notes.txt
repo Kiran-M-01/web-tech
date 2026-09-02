@@ -34,3 +34,6 @@ Rules of JSX
 Expression - to access content of javascript in html we use expression ({})
 
 - undefined and objects will not be printed in the ui
+
+= jsx will not allow  statements
+= jsx will only allow map,filter,reduce and ternary operator
