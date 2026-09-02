@@ -7,13 +7,14 @@ let App = () => {
         age:15
     }
 
+    let {name,age} = obj
     return (
         <div>
             <h1>{a}</h1>
             <h1>{b}</h1>
             <h2>{c}</h2>
-            <p>{obj.name}</p>
-            <p>{obj.age}</p>
+            <p>{name}</p>
+            <p>{age}</p>
         </div>
     )
 
