@@ -32,3 +32,5 @@ Rules of JSX
 5) - instead of 'class'  you should use 'className'   and   ' for'  = 'HtmlFor'
 
 Expression - to access content of javascript in html we use expression ({})
+
+- undefined and objects will not be printed in the ui
