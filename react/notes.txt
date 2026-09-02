@@ -14,3 +14,21 @@
 React.createElemet(tag, attribute, content)
 React.creataelement("h1",null,"this is h2")
 
+
+- jsx - javascript and html
+    xml - extensible markup language 
+        - to create custom tags
+        - to pass the data from one tag to another tag
+        
+in app.jsx -
+    - javascript code should be above the return
+    - html should be  inside the return
+
+Rules of JSX
+1) jsx must have one parent element
+2) parenthisis is required while returning multiline statements
+3) all tags must be closed 
+4) attributes should be in camel case
+5) - instead of 'class'  you should use 'className'   and   ' for'  = 'HtmlFor'
+
+Expression - to access content of javascript in html we use expression ({})
