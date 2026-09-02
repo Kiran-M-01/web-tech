@@ -12,6 +12,19 @@ let App = () => {
     let obj2 = {
         skills:["html","css","js"]
     }
+
+    let products = [
+        {
+            title:"Mobiles",
+            Price:20000
+        },{
+            title:"Electronics",
+            Price:40000
+        },{
+            title:"laptops",
+            price:200000000
+        }
+    ]
     
     return (
         <div>
@@ -32,6 +45,19 @@ let App = () => {
                     <h1>{val}</h1>
                 </div>)
             })
+            }
+
+            {
+                products.map((value) => {
+                    console.log(value);
+
+                    return(
+                        <div>
+                            <h1>Title:{value.title}</h1>
+                            <h1>Title:{value.price}</h1>
+                        </div>
+                    )
+                })
             }
 
         </div>
