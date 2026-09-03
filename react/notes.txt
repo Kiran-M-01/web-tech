@@ -15,7 +15,7 @@ React.createElemet(tag, attribute, content)
 React.creataelement("h1",null,"this is h2")
 
 
-- jsx - javascript and html
+- jsx - javascript and xml
     xml - extensible markup language 
         - to create custom tags
         - to pass the data from one tag to another tag
