@@ -71,14 +71,33 @@
 
 // export default App
 
+// let App = () => {
+
+//     let arr = [1,2,3,4,5,6,7]
+//     return(
+//         <div>
+//         <h1>{arr.reduce((acc,curr) =>acc + curr )}</h1>
+//         </div>
+//         )
+//     }
+
+// export default App
+
 let App = () => {
-
-    let arr = [1,2,3,4,5,6,7]
-    return(
-        <div>
-        <h1>{arr.reduce((acc,curr) =>acc + curr )}</h1>
-        </div>
-        )
+let arr = ["this"," is"," js"]
+return(
+    <section>
+        {
+            arr.map((value,index)=>{
+                return(
+                    <fragment key={index+1}>
+                        <h1>{value.toUpperCase()}</h1>
+                    </fragment>
+                )
+            })
     }
-
+    </section>
+)
+}
 export default App
+
