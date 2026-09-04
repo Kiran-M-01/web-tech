@@ -105,6 +105,7 @@
 
 
 import NavbarContainer from './Navbar/NavbarContainer'
+import FooterContainer from './Footer/FooterContainer'
 
 const App = () => {
     return(
@@ -114,6 +115,10 @@ const App = () => {
                     <NavbarContainer/>
                 </nav>
             </header>
+
+            <footer>
+                <FooterContainer/>
+            </footer>
         </main>
     )
 }
