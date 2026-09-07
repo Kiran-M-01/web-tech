@@ -35,7 +35,7 @@ Expression - to access content of javascript in html we use expression ({})
 
 - undefined and objects will not be printed in the ui
 
-= jsx will not allow  statements
+= jsx will not allow  statements and loops
 = jsx will only allow map,filter,reduce and ternary operator
 
 
@@ -47,3 +47,6 @@ FRAGMENTS- allow developers to group multiple elements without adding extra node
 Rules of components
 1) component name should always start with 'capital letter'
 2) 
+
+
+-PROPS - sending data from one component to another component is known as Props(properties).

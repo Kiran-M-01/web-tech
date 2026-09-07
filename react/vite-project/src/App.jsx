@@ -104,23 +104,39 @@
 
 
 
-import NavbarContainer from './Navbar/NavbarContainer'
-import FooterContainer from './Footer/FooterContainer'
+// import NavbarContainer from './Navbar/NavbarContainer'
+// import FooterContainer from './Footer/FooterContainer'
 
-const App = () => {
-    return(
-        <main>
-            <header>
-                <nav>
-                    <NavbarContainer/>
-                </nav>
-            </header>
+// const App = () => {
+//     return(
+//         <main>
+//             <header>
+//                 <nav>
+//                     <NavbarContainer/>
+//                 </nav>
+//             </header>
 
-            <footer>
-                <FooterContainer/>
-            </footer>
-        </main>
-    )
-}
+//             <footer>
+//                 <FooterContainer/>
+//             </footer>
+//         </main>
+//     )
+// }
 
-export default App
+// export default App
+
+
+import Component1 from "./Props/Component1";
+
+let App = () => {
+    let arr = [10, 20, 30];
+
+    return (
+        <div>
+            <h1>This is App</h1>
+            <Component1 value={arr} />
+        </div>
+    );
+};
+
+export default App;
