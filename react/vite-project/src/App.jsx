@@ -130,11 +130,15 @@ import Component1 from "./Props/Component1";
 
 let App = () => {
     let arr = [10, 20, 30];
+    let obj = {
+        name:"js",
+        age:21
+    }
 
     return (
         <div>
             <h1>This is App</h1>
-            <Component1 value={arr} />
+            <Component1 value={{arr,obj}} />
         </div>
     );
 };

@@ -1,10 +1,13 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
+import Component2 from './Component2';
 
-let Component1 = ({ value }) => {
+const Component1 = ({ value }) => {
+    console.log(value)
+    let {arr,obj} = value
     return (
         <div>
             {
-                value.map((x, i) => {
+                arr.map((x, i) => {
                     return (
                         <Fragment key={i}>
                             <h1>{x}</h1>
@@ -12,6 +15,8 @@ let Component1 = ({ value }) => {
                     );
                 })
             }
+
+            <Component2 value={obj}/>
         </div>
     );
 };
