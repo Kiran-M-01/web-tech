@@ -126,21 +126,107 @@
 // export default App
 
 
-import Component1 from "./Props/Component1";
+// import Component1 from "./Props/Component1";
 
-let App = () => {
-    let arr = [10, 20, 30];
-    let obj = {
-        name:"js",
-        age:21
-    }
+// let App = () => {
+//     let arr = [10, 20, 30];
+//     let obj = {
+//         name:"js",
+//         age:21
+//     }
 
+//     return (
+//         <div>
+//             <h1>This is App</h1>
+//             <Component1 value={{arr,obj}} />
+//         </div>
+//     );
+// };
+
+// export default App;
+
+// task
+// import Component1 from "./Props/Component1";
+
+// const App = () => {
+//     return (
+//         <div>
+//             <h1>This is App</h1>
+
+//             <Component1 />
+//         </div>
+//     );
+// };
+
+// export default App;
+
+
+// import React, { useState } from 'react'
+// const App = () => {
+
+//     let [count,setCount] = useState(1)
+
+//     function Increment(){
+//         if (count < 10) {
+//             setCount(count + 1);
+//         }
+//     }
+//     function Decrement(){
+//         if (count > 1) {
+//             setCount(count - 1);
+//         }    
+//     }
+//     return (
+//         <div>
+//             <h1>this is app</h1>
+//             <h1>{count}</h1>
+//             <button onClick={Increment}>Increment</button>
+//             <button onClick={Decrement}>Decrement</button>
+
+//         </div>
+//     );
+// };
+
+// export default App;
+
+// CONDITIONAL RENDERING
+// 1.IF-ELSE
+// import Component1 from './Props/Component1'
+// const App = () => {
+//     return (
+//         <div>
+
+//             <Component1 />
+//         </div>
+//     );
+// };
+
+// export default App;
+
+// 2.TERNARY
+
+// import Ternary from './Conditionalrendering/Ternary.jsx'
+// const App = () => {
+//     return (
+//         <div>
+//             <Ternary />
+//             <h1>hii</h1>
+//         </div>
+//     );
+// };
+
+// <h1>hii</h1>
+
+import Form from './Conditionalrendering/form'
+const App = () => {
     return (
         <div>
-            <h1>This is App</h1>
-            <Component1 value={{arr,obj}} />
+            <Form />
+            <h1>hii</h1>
         </div>
     );
 };
 
+
 export default App;
+

@@ -1,0 +1,1 @@
+HOOKS - all the functionalities in classbased component if we want to use it in function based dcomponent we use 'hooks'.

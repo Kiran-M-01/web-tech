@@ -1,14 +1,18 @@
 import React from "react";
+import Component3 from "./Component3";
 
-const Component2 = ({ value }) => {
-    console.log(value)
-    let {name,age} = value
-    return(
+const Component2 = (props) => {
+
+    console.log("Component2:", props);
+
+    let {str,num,bool,obj,arr,fun, nestedObj,nestedArr} = props
+    return (
         <div>
-            <h1>Name:{name}</h1>
-            <h1>Age:{age}</h1>
+            
+
+            <Component3 value={{str,num,bool,obj,arr,fun, nestedObj,nestedArr}} />
         </div>
-    )
-}
+    );
+};
 
 export default Component2;

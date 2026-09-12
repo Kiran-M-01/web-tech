@@ -50,3 +50,14 @@ Rules of components
 
 
 -PROPS - sending data from one component to another component is known as Props(properties).
+
+-HOOKS - all the functionalities in classbased component if we want to use it in function based dcomponent we use 'hooks'.
+-whenever the state changes the component refreshes
+
+1) useState - 
+
+- 'conditional rendering' - 
+
+1. if-else
+2. ternary operator
+3.short circuit
