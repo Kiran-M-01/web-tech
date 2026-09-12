@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -41,4 +41,49 @@ main>footer{
     height: 20px;
     width: 100vw;
     background-color:brown;
+} */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+#form_id {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+    min-height: 100vh;
+    color:white;
+}
+#form_id section {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius :15px;
+    background-color:rgb(67, 82, 102)
+}
+#form_id div {
+    margin-bottom: 15px;
+}
+#form_id label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+#form_id input {
+    width: 100%;
+    padding: 4px;
+    border-radius:10px;
+}
+#form_id button{
+    width: 100%;
+    background-color:green;
+    padding: 5px;
+    border-radius:10px;
 }

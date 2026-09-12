@@ -218,11 +218,12 @@
 // <h1>hii</h1>
 
 import Form from './Conditionalrendering/form'
+import './style.css'
 const App = () => {
     return (
         <div>
             <Form />
-            <h1>hii</h1>
+            
         </div>
     );
 };
