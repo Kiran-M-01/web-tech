@@ -233,11 +233,11 @@
 // export default App;
 
 import UseRef from './FormHandling/UseRef'
-
+import SingleRef from './FormHandling/SingleRef'
 const App = () => {
     return (
         <div>
-            <UseRef/>
+            <SingleRef/>
             
         </div>
     );
