@@ -61,3 +61,16 @@ Rules of components
 1. if-else
 2. ternary operator
 3.short circuit
+
+npm install react-icons --- to install react icons
+
+
+- Form handling
+- 2 ways forr handling form
+1) controlled way(useState)
+2) uncontrolled way(useRef)
+
+
+1- useRef - used to directly manipulate real DOM
+== 'synthetic event' - it is a cross-browser event that allows your native browser to adapt the events
+
