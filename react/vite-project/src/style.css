@@ -1,4 +1,4 @@
-/* *{
+/*/ *{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -99,3 +99,6 @@ main>footer{
     left:233px;
     top:26px;
 } */
+
+
+@import "tailwindcss";

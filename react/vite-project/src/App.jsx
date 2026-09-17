@@ -232,17 +232,31 @@
 
 // export default App;
 
-import UseRef from './FormHandling/UseRef'
-import SingleRef from './FormHandling/SingleRef'
+// import UseRef from './FormHandling/UseRef'
+// import SingleRef from './FormHandling/SingleRef'
+// const App = () => {
+//     return (
+//         <div>
+//             <SingleRef/>
+            
+//         </div>
+//     );
+// };
+
+
+// export default App;
+
+// import UseRef from './FormHandling/UseRef'
+import Controlled from './FormHandling/Controlled'
 const App = () => {
     return (
         <div>
-            <SingleRef/>
+            <Controlled/>
             
         </div>
     );
 };
 
 
-export default App;
+export default App; 
 
