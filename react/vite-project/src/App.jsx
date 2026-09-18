@@ -247,11 +247,24 @@
 // export default App;
 
 // import UseRef from './FormHandling/UseRef'
-import Controlled from './FormHandling/Controlled'
+// import Controlled from './FormHandling/Controlled'
+// const App = () => {
+//     return (
+//         <div>
+//             <Controlled/>
+            
+//         </div>
+//     );
+// };
+
+
+// export default App; 
+
+import Posting from "./FormHandling/posting"
 const App = () => {
     return (
         <div>
-            <Controlled/>
+            <Posting/>
             
         </div>
     );
@@ -259,4 +272,3 @@ const App = () => {
 
 
 export default App; 
-
