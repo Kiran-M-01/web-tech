@@ -74,3 +74,6 @@ npm install react-icons --- to install react icons
 1- useRef - used to directly manipulate real DOM
 == 'synthetic event' - it is a cross-browser event that allows your native browser to adapt the events
 
+"Postin Data" - 
+"npm install json-server"  - command to install json server
+
