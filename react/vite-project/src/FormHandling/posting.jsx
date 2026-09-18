@@ -19,9 +19,27 @@ const Posting = () => {
             
         }
     
-        let handleSubmit = (e) => {
+        let handleSubmit = async (e) => {
             e.preventDefault()
             console.log(state)
+            try{
+                let data = await fetch("http://localhost:4200/users",{
+                    method:"POST",
+                    headers:{"Content-type":"application/json"},
+                    body: JSON.stringify(state)
+                })
+                alert("successfully ${username} has been registered ")
+            } catch(error){
+                console.log(error);
+            }
+            finally{
+                setState({
+            username:"",
+            password:"",
+            email:"",
+            address:""
+            })
+            }
         }
 
     return(
