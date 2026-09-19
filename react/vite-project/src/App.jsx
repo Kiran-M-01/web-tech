@@ -261,9 +261,11 @@
 // export default App; 
 
 import Posting from "./FormHandling/posting"
+import {Toaster} from "react-hot-toast"
 const App = () => {
     return (
         <div>
+            <Toaster/>
             <Posting/>
             
         </div>

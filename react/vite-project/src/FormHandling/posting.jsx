@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import axios from "axios";
+import toast from "react-hot-toast";
 
 
 const Posting = () => {
@@ -22,23 +24,28 @@ const Posting = () => {
         let handleSubmit = async (e) => {
             e.preventDefault()
             console.log(state)
-            try{
-                let data = await fetch("http://localhost:4200/users",{
-                    method:"POST",
-                    headers:{"Content-type":"application/json"},
-                    body: JSON.stringify(state)
-                })
-                alert("successfully ${username} has been registered ")
-            } catch(error){
-                console.log(error);
+            if(username == "" && password == "" && email == "" && address == ""){
+                toast.error("All fields are Mandatory")
+                return;
             }
-            finally{
-                setState({
-            username:"",
-            password:"",
-            email:"",
-            address:""
-            })
+            if(password.length < 6){
+                toast.error("password should be more than  6 charecters")
+                return;
+            }
+
+
+            try{
+                // let data = await fetch("http://localhost:4200/users",{
+                //     method:"POST",
+                //     headers:{"Content-type":"application/json"},
+                //     body: JSON.stringify(state)
+                // })
+
+                await axios.post("http://localhost:4200/users",state);
+                toast.success(`${email} has been registered successfully`)
+            } catch(e){
+                toast.error("Something went wrong")
+                console.log(e);
             }
         }
 
