@@ -260,17 +260,33 @@
 
 // export default App; 
 
-import Posting from "./FormHandling/posting"
-import {Toaster} from "react-hot-toast"
+// import Posting from "./FormHandling/posting"
+// import {Toaster} from "react-hot-toast"
+// const App = () => {
+//     return (
+//         <div>
+//             <Toaster/>
+//             <Posting/>
+            
+//         </div>
+//     );
+// };
+
+
+// export default App; 
+
+
+
+import UseEffect1 from "./UseEffectHook/UseEffect1"
 const App = () => {
     return (
         <div>
-            <Toaster/>
-            <Posting/>
+            <UseEffect1/>
+            
             
         </div>
     );
 };
 
 
-export default App; 
+export default App;
