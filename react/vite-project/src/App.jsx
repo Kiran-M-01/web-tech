@@ -277,11 +277,25 @@
 
 
 
-import UseEffect1 from "./UseEffectHook/UseEffect1"
+// import UseEffect1 from "./UseEffectHook/UseEffect1"
+// const App = () => {
+//     return (
+//         <div>
+//             <UseEffect1/>
+            
+            
+//         </div>
+//     );
+// };
+
+
+// export default App;
+
+import Posting from "./UseEffectHook/Posting"
 const App = () => {
     return (
         <div>
-            <UseEffect1/>
+            <Posting/>
             
             
         </div>
