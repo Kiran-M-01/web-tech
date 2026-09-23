@@ -82,3 +82,9 @@ npm install react-icons --- to install react icons
 npm(node package manager), npx(node package execute)bb
 
 3}npx json-server --watch ./backend/db.json --port 4200
+
+
+
+UseEffect- used to perform sideeffect
+sideeffect- which is not there in react hook
+
